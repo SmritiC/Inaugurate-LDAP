@@ -15,12 +15,15 @@
 
 ## Usage
 	
-	The automated installation of LDAP server upgrades all the packages and installs ldap-utils (if not previously installed), adds your domain name and organization name into LDAP and installs ldapscripts with which you can manage LDAP users.
+	The automated installation of LDAP server upgrades all the packages and installs ldap-utils (if not previously 
+	installed), adds your domain name and organization name into LDAP and installs ldapscripts with which you can manage 
+	LDAP users.
 	During LDAP installation, a window appears for you to enter password to be set for LDAP server.
 	Then a window appears for entering your domain name and organization name.
 	By default, Home directory will be created for all the users being added up in the LDAP server.
 	After installation of ldapscripts, you will be authenticated to use the following commands to manage the users in LDAP, with the LDAP server password itself.
-	All ldap error codes and messages which are quite inconvenient to track are handled within the script code, for all ldap installation operations.
+	All ldap error codes and messages which are quite inconvenient to track are handled within the script code, for all 
+	ldap installation operations.
 
 ### Add Group 
 
@@ -29,7 +32,8 @@
 
 ### Add User
 
-	Using the following command, you can add a user and specify which group he belongs to. By default a home directory will be created for this user.
+	Using the following command, you can add a user and specify which group he belongs to. 
+	By default a home directory will be created for this user.
 	$ sudo ldapadduser user_name group_name
 	The password for the user's home directory can be changed using the following command:
 	$ sudo ldapsetpassword user_name
