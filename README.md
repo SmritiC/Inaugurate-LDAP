@@ -15,15 +15,16 @@
 
 ## Usage
 	
-	The automated installation of LDAP server upgrades all the packages and installs ldap-utils (if not previously 
-	installed), adds your domain name and organization name into LDAP and installs ldapscripts with which you can manage 
-	LDAP users.
+	The automated installation of LDAP server upgrades all the packages and installs ldap-utils (if not 
+	previously installed), adds your domain name and organization name into LDAP and installs ldapscripts with 
+	which you can manage LDAP users.
 	During LDAP installation, a window appears for you to enter password to be set for LDAP server.
 	Then a window appears for entering your domain name and organization name.
 	By default, Home directory will be created for all the users being added up in the LDAP server.
-	After installation of ldapscripts, you will be authenticated to use the following commands to manage the users in LDAP, with the LDAP server password itself.
-	All ldap error codes and messages which are quite inconvenient to track are handled within the script code, for all 
-	ldap installation operations.
+	After installation of ldapscripts, you will be authenticated to use the following commands to manage 
+	the users in LDAP, with the LDAP server password itself.
+	All ldap error codes and messages which are quite inconvenient to track are handled within the script code,
+	for all ldap installation operations.
 
 ### Add Group 
 
